@@ -1,0 +1,6 @@
+# ignored files
+
+**/obj
+**/.vs/
+API/obj/**
+.vs/**
