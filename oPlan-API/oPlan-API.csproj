@@ -17,4 +17,10 @@
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\oPlan-Data\oPlan-Data.csproj" />
+    <ProjectReference Include="..\oPlan-Repository\oPlan-Repository.csproj" />
+    <ProjectReference Include="..\Services\oPlan-Services.csproj" />
+  </ItemGroup>
+
 </Project>

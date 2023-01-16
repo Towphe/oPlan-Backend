@@ -6,18 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "oPlan-API/1.0.0": {
+      "oPlan-Repository/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.2",
           "Microsoft.EntityFrameworkCore.Design": "7.0.2",
           "Npgsql": "7.0.1",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.1",
-          "oPlan-Data": "1.0.0",
-          "oPlan-Repository": "1.0.0",
-          "oPlan-Services": "1.0.0"
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.1"
         },
         "runtime": {
-          "oPlan-API.dll": {}
+          "oPlan-Repository.dll": {}
         }
       },
       "Humanizer.Core/2.14.1": {
@@ -267,36 +264,11 @@
             "fileVersion": "7.0.22.51805"
           }
         }
-      },
-      "oPlan-Data/1.0.0": {
-        "runtime": {
-          "oPlan-Data.dll": {}
-        }
-      },
-      "oPlan-Repository/1.0.0": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "7.0.2",
-          "Npgsql": "7.0.1",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.1"
-        },
-        "runtime": {
-          "oPlan-Repository.dll": {}
-        }
-      },
-      "oPlan-Services/1.0.0": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "7.0.2",
-          "Npgsql": "7.0.1",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.1"
-        },
-        "runtime": {
-          "oPlan-Services.dll": {}
-        }
       }
     }
   },
   "libraries": {
-    "oPlan-API/1.0.0": {
+    "oPlan-Repository/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -461,21 +433,6 @@
       "sha512": "sha512-DaGSsVqKsn/ia6RG8frjwmJonfos0srquhw09TlT8KRw5I43E+4gs+/bZj4K0vShJ5H9imCuXupb4RmS+dBy3w==",
       "path": "system.text.json/7.0.0",
       "hashPath": "system.text.json.7.0.0.nupkg.sha512"
-    },
-    "oPlan-Data/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "oPlan-Repository/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "oPlan-Services/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }
